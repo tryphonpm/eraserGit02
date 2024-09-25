@@ -14,6 +14,9 @@
 - [ ] gestion de la désactivation après temps de latence
 # Traitement des retours (logs, résumés)
 - [ ] correspondance entre les résumés/logs et les personnes susceptibles de gérer les anomalies pour l'envoi des mails
+# Documentation
+- [ ] compléter la documentation
+- [ ] mise en ligne (format .MD => Nuxt/Content)
 # Dashboard de gestion de données (NUXT)
 - [ ] finaliser les choix d'environnement (interface graphique)
 - [ ] design de l'application pour la partie du suivi de la routine GDI
