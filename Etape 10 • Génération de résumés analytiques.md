@@ -14,6 +14,9 @@ A partir des données JSON générées à chaque étape, des résumés analytiqu
 - [ ] à terme, n'envoyer que le mail de l'étape 10 (notifications - résumés)
 - [ ] développement NUXT (framework node.js)
 aujourd'hui base des modules utiles : tailwind, pinia, content, shadcn...
+## Documentation
+
+
 
 
 
