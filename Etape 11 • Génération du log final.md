@@ -3,6 +3,7 @@
 # Descriptif
 - compilation des logs de chaque étapes
 - génération d'un fichier .txt => dossier réseau
+- envoi par mail programmable
 
 
 
