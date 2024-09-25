@@ -16,6 +16,9 @@ Vidage et importations des données des tables GDI :
 
 - PAIE_Novrh
 - Structures_NovRH
+## Documentation
+![Figure 1](/.eraser/UGBtZIOeNof0IHHFS23b___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---QyrJ_Htd_RT255PESv4l9---figure---bEH0iZT2zUVwGm0Hvc00FQ.png "Figure 1")
+
 
 
 
