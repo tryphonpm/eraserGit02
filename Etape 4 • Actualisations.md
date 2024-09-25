@@ -31,7 +31,7 @@ table GDI/actualisations
 },
 ```
 # Analyse
-sur deux critères principaux :
+sur deux critères principaux : 
 
 - MANAGER
 - DFC
@@ -60,6 +60,9 @@ sur deux critères principaux :
 # 1388 celia.parras
     DFC : 30/08/2024 > 30/06/2025
 ```
+## Documentation
+![Figure 1](/.eraser/JvfzNgC5oYVMiMLDIE5A___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---1hr6G4CnHjBFyM6dBHNWi---figure---ELU3rAgy0kO0v-f7EWAVlA.png "Figure 1")
+
 
 
 
