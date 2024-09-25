@@ -119,6 +119,9 @@ Les deux filtres en place :
 - champs Manager (matricule)
 - CODANA
 - doublons
+## Documentation
+![Figure 1](/.eraser/jb8gm8OxOQw5m1dcsBFw___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---eLsdoJq2LkLprVOY09Um8---figure---FfC_41ZUiItEGHiTtb25VA.png "Figure 1")
+
 
 
 
