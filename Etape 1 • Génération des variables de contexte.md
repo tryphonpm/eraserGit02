@@ -13,6 +13,9 @@ Les étapes de la routine s'appuient sur un nombre conséquent de variables glob
     - pour la création des comptes LDAP
     - pour les actualisations LDAP
     - pour le filtrage des natures de contrat avec ou sans DFC
+## Documentation
+![Figure 1](/.eraser/JizkDt37OQsUDhR6Aeqg___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---9ZUeoiZ4tNw8Uh2doyJtn---figure---NkZxeaqoIZWd1ZHcwaZnLg.png "Figure 1")
+
 
 
 
