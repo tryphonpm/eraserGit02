@@ -77,6 +77,9 @@ Au niveau GDI : codage de la DFC > accountExpires => LDAP
 
 > Calcul d'une liste 'MemberOf' standard, déclinable selon les profils => Charlotte
 
+## Documentation
+![Figure 1](/.eraser/4Rm0hUHxAbJmwYO1WQmb___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---L1nCKFgwsKKgmH40MunXD---figure---Kk4--HmAd6MyPNqrLNjGtg.png "Figure 1")
+
 
 
 
