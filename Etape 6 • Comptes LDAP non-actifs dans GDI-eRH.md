@@ -27,9 +27,12 @@ Table GDI/suppressions
 # Traitement
 === A FAIRE ===
 
-- résumé automatique #4
-- requête vers script PS
-- envoi rapport mail
+- [x] résumé automatique #4
+- [ ] requête vers script PS
+- [ ] envoi rapport mail
+## Documentation
+![Figure 1](/.eraser/JVbZ5URNeyo0MpcDTVfQ___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---asD4BaShyHTfhEtBUVreg---figure---gwvPS9Q0hunxvPKXS35Teg.png "Figure 1")
+
 
 
 
