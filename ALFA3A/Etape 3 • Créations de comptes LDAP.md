@@ -72,13 +72,17 @@ Les retours `UPDATE_USER_DATE_OK` et `OLD_USER_OK` et `NEW_USER_OK`  :
 ```
 # ERREUR :
 7303 axel.dreux
-# ERREUR :
 5009 gilly.groccia
 ```
 Le marquage `ERREUR` : 
 
-> le script ne renvoie rien, aucun tag ou message d'erreur > les comptes ne sont pas créés
+> le script ne renvoie rien,** aucun tag** ou message d'erreur >
+mais **les comptes sont toujours créés **sur le LDAP.
+Par contre, la routine est interrompue.
+Le traitement et l'actualisation de tous les champs sont bloqués .
 
+#### Anomalies récurrentes :
+- sAMAccountName du manager qui n'est pas 'nominatif' 
 ---
 
 ### Les comptes nouveaux, créés dans GDI::SALARIE mais filtrés en amont du script PS
@@ -107,10 +111,10 @@ Les deux filtres en place :
 - Manager DN > formatage_Manager_DN
 - Description
 - (DN_LIEN : normalement obsolète > LDAP_DistinguishName récupéré du LDAP)
-- ... à voir : champs liés au SITE
+- **... à voir : champs liés au SITE** 
 > Les scripts sont communs à la routine quotidienne (étape 3) et au script (toujours en cours de dev) 'corrections_anomalies'
 
-### anomalies apparues dans la table importée NOVRH
+### Anomalies apparues dans la table importée NOVRH 
 - date de fin de contrat pour des contrats de type CDD
 - champs Manager (matricule)
 - CODANA
