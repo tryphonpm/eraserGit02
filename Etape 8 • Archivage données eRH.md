@@ -41,6 +41,9 @@ Table GDI.novrh
   "PRESENCE_LDAP": "oui"
 }
 ```
+## Documentation
+![Figure 1](/.eraser/A3bL4oFuOk1F09xZAt9a___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---QEdFJzcQJUtn9qIPmPnAr---figure---7lxaUlK3cjWZMsXhaJWBGA.png "Figure 1")
+
 
 
 
