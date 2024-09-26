@@ -50,7 +50,7 @@ Table GDI/ldap
     "32": {
       "ldap::accountExpires": "133961400000000000",
       "LDAP_accountExpires": "133960536000000000",
-      "ope": "<<"
+      "ope": ">>"
     }
   },
   "MATRICULE": "139",
@@ -64,21 +64,27 @@ Table GDI/ldap
 ```
 # Remarques
 ## Nom naissance, nom usage, prénom, sama
-> actualisation sous conditions > == A REVOIR ==
+> actualisation sous conditions > == A REVOIR == 
 
 > selon les contraintes samaccountname, email, authentificatiion...
+
+
 
 ## Date de fin de contrat
 > accountExpiresDate : ne peut être éditée car calculée par le LDAP en fonction du champs codé : accountExpires
 Au niveau GDI : codage de la DFC > accountExpires => LDAP
+
+
 
 ## MemberOf
 > champs LDAP non-éditable directement > possible de passer par les GROUPES (déjà testé, mais pas mis en place)
 
 > Calcul d'une liste 'MemberOf' standard, déclinable selon les profils => Charlotte
 
+
+
 ## Documentation
-![Figure 1](/.eraser/4Rm0hUHxAbJmwYO1WQmb___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---L1nCKFgwsKKgmH40MunXD---figure---Kk4--HmAd6MyPNqrLNjGtg.png "Figure 1")
+![Figure 1](/.eraser/4Rm0hUHxAbJmwYO1WQmb___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---MMh1ee08qu7JoKdSS3r9S---figure---Kk4--HmAd6MyPNqrLNjGtg.png "Figure 1")
 
 
 
