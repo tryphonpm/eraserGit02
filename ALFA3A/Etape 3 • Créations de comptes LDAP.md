@@ -59,11 +59,15 @@ table GDI/creations
 
 # NEW_USER_OK :
 ```
+
+
 Les retours `EMPLOYEEID_IN_USE` `USER_ALREADY_ACTIVE`  :
 
 > comptes désactivés > aucune ré-activation automatique
 
-Les retours `UPDATE_USER_DATE_OK` et `OLD_USER_OK` et `NEW_USER_OK`  :
+
+
+Les retours `UPDATE_USER_DATE_OK` et `OLD_USER_OK` et `NEW_USER_OK`  : 
 
 > comptes OK
 
@@ -81,9 +85,15 @@ mais **les comptes sont toujours créés **sur le LDAP.
 Par contre, la routine est interrompue.
 Le traitement et l'actualisation de tous les champs sont bloqués .
 
+
+
 #### Anomalies récurrentes :
 - sAMAccountName du manager qui n'est pas 'nominatif' 
+
+
 ---
+
+
 
 ### Les comptes nouveaux, créés dans GDI::SALARIE mais filtrés en amont du script PS
 ```
@@ -106,13 +116,13 @@ Les deux filtres en place :
 
 # Anomalies courantes
 ### champs non-renseignés (scripts associés)
-- sAMAccountName > formatage_noms_prenoms_SALARIE
-- accountExpires > actualisation_contrats
-- Manager DN > formatage_Manager_DN
+- sAMAccountName > _formatage_noms_prenoms_SALARIE_
+- accountExpires > codage dans le script '_actualisation_contrats'_
+- Manager DN > _formatage_Manager_DN_
 - Description
-- (DN_LIEN : normalement obsolète > LDAP_DistinguishName récupéré du LDAP)
+- (DN_LIEN : normalement obsolète > LDAP_DistinguishedName récupéré du LDAP)
 - **... à voir : champs liés au SITE** 
-> Les scripts sont communs à la routine quotidienne (étape 3) et au script (toujours en cours de dev) 'corrections_anomalies'
+> Les scripts sont communs à la routine quotidienne (étape 3) et au script (toujours en cours de dev.) 'corrections_anomalies'
 
 ### Anomalies apparues dans la table importée NOVRH 
 - date de fin de contrat pour des contrats de type CDD
@@ -120,7 +130,7 @@ Les deux filtres en place :
 - CODANA
 - doublons
 ## Documentation
-![Figure 1](/.eraser/jb8gm8OxOQw5m1dcsBFw___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---eLsdoJq2LkLprVOY09Um8---figure---FfC_41ZUiItEGHiTtb25VA.png "Figure 1")
+![Figure 1](/.eraser/jb8gm8OxOQw5m1dcsBFw___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---jJAfes7ead_AwVKdXd5tX---figure---FfC_41ZUiItEGHiTtb25VA.png "Figure 1")
 
 
 
