@@ -24,6 +24,11 @@ Table GDI/suppressions
   "LOG_HEURE": "05:09:28"
 }
 ```
+## Filtre deadline
+Les comptes ne sont signalés que si la DFC est dépassée depuis 31 jours.
+
+(script : PAIE_comptes_inactifs, var $deadline)
+
 # Traitement
 === A FAIRE ===
 
@@ -31,7 +36,7 @@ Table GDI/suppressions
 - [ ] requête vers script PS
 - [ ] envoi rapport mail
 ## Documentation
-![Figure 1](/.eraser/JVbZ5URNeyo0MpcDTVfQ___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---asD4BaShyHTfhEtBUVreg---figure---gwvPS9Q0hunxvPKXS35Teg.png "Figure 1")
+![Figure 1](/.eraser/JVbZ5URNeyo0MpcDTVfQ___f4QvwUwjoWgyG5YzFw7uRY0I6SG3___---figure---3JzwDkl2hwXUkk-Cy6LLl---figure---gwvPS9Q0hunxvPKXS35Teg.png "Figure 1")
 
 
 
